@@ -1,0 +1,254 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+
+/* ol,
+ul {
+    list-style: none;
+} */
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*-------------------------------------- css reset ends here--------------------------------------- */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(212, 206, 167);
+    color: rgb(37, 44, 34);
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ------------------------header---------------------------- */
+
+.header {
+    background-color: rgb(249, 97, 21);
+    color: whitesmoke;
+    padding: 16px 0;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 22px;
+}
+
+
+/*------------------------------------- main------------------------------------- */
+
+.box {
+    background: rgb(0, 89, 121);
+    color: rgb(211, 205, 166);
+    width: 25%;
+    margin: 30px 0 60px 0;
+    height: 500px;
+    box-shadow: 5px 10px 12px 5px rgb(111, 104, 83);
+}
+
+.box-2 {
+    padding: 40px;
+    line-height: 2;
+    font-weight: 700;
+}
+
+.box-2 ul ol {
+    padding-top: 0;
+}
+
+.box-2 ul,
+.box-2 ul ol,
+.box-2 ul ol ul {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.box ol {
+    padding: 40px;
+    list-style: decimal;
+    line-height: 2;
+    font-weight: 700;
+    padding-bottom: 120px;
+}
+
+.box-3 ul {
+    padding-top: 28px;
+}
+
+.box-3 ul li {
+    margin-left: 30px;
+    padding: 12px 0 12px 49px;
+    list-style: none;
+    background-image: url("../tick.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 22px;
+    padding-left: 50px;
+}
+
+h1,
+p {
+    margin: 25px 0;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: rgb(37, 44, 34);
+}
